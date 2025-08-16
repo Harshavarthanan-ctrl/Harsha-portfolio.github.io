@@ -3907,3 +3907,642 @@ input, select, textarea {
 			}
 
 		}
+/* =========================
+   Sidebar
+========================= */
+#sidebar {
+  background: linear-gradient(180deg, #2c3e50, #34495e); /* dark slate gradient */
+  color: #fff;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
+}
+
+#sidebar nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#sidebar nav ul li {
+  margin: 1rem 0;
+}
+
+#sidebar nav ul li a {
+  color: #f1f1f1;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#sidebar nav ul li a:hover {
+  color: #e8cf43; /* golden highlight */
+}
+
+/* =========================
+   Intro / Profile Section
+========================= */
+#intro {
+  background: linear-gradient(135deg, #fdfcfb, #e2d1c3); /* soft beige/gold */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 2rem;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+#intro img {
+  border: 4px solid #e8cf43;
+  border-radius: 50%;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+#intro img:hover {
+  transform: scale(1.05);
+}
+
+#intro h1 {
+  color: #2c3e50;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+#intro p {
+  color: #444;
+  max-width: 700px;
+  margin: 0 auto 1.5rem;
+  line-height: 1.6;
+}
+
+#intro a {
+  background: linear-gradient(135deg, #e8cf43, #f5e88f);
+  color: #000;
+  font-weight: bold;
+  padding: 10px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+#intro a:hover {
+  background: linear-gradient(135deg, #d4b837, #f1e174);
+  transform: translateY(-3px);
+}
+/* =========================
+   Sidebar
+========================= */
+#sidebar {
+  background: linear-gradient(180deg, #2c3e50, #34495e);
+  color: #f1f1f1;
+  width: 250px;
+  padding: 2rem 1rem;
+  min-height: 100vh;
+  border-right: 2px solid #e8cf43;
+}
+
+#sidebar a {
+  color: #e8cf43;
+  text-decoration: none;
+  display: block;
+  margin: 1rem 0;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+#sidebar a:hover {
+  color: #f5e88f;
+}
+
+/* =========================
+   Intro / Profile Section
+========================= */
+#intro {
+  background: linear-gradient(135deg, #1a1a1a, #2c3e50);
+  color: #f1f1f1;
+  text-align: center;
+  padding: 4rem 2rem;
+  border-bottom: 2px solid #e8cf43;
+}
+
+#intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #e8cf43;
+}
+
+#intro p {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+/* =========================
+   Projects
+========================= */
+#projects {
+  background: linear-gradient(135deg, #1f2c38, #2c3e50);
+  color: #f1f1f1;
+  padding: 4rem 2rem;
+  border-bottom: 2px solid #e8cf43;
+}
+
+#projects h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #e8cf43;
+  margin-bottom: 2rem;
+}
+
+.project-card {
+  background: #2b3b4b;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin: 1rem 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  border: 1px solid #e8cf43;
+}
+
+/* =========================
+   Skills
+========================= */
+#skills {
+  background: linear-gradient(135deg, #202020, #2e3d4d);
+  color: #f1f1f1;
+  padding: 4rem 2rem;
+  border-bottom: 2px solid #e8cf43;
+}
+
+#skills h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #e8cf43;
+  margin-bottom: 2rem;
+}
+
+.skill-badge {
+  display: inline-block;
+  background: #2b3b4b;
+  color: #e8cf43;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  margin: 0.5rem;
+  transition: background 0.3s ease;
+}
+
+.skill-badge:hover {
+  background: #3c4d5c;
+}
+
+/* =========================
+   Experience
+========================= */
+#experience {
+  background: linear-gradient(135deg, #1c2833, #34495e);
+  color: #f1f1f1;
+  padding: 4rem 2rem;
+  border-bottom: 2px solid #e8cf43;
+}
+
+#experience h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #e8cf43;
+  margin-bottom: 2rem;
+}
+
+.experience-item {
+  background: #2b3b4b;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin: 1rem 0;
+  border-left: 4px solid #e8cf43;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.4);
+}
+
+/* =========================
+   Get in Touch / Contact
+========================= */
+#contact {
+  background: linear-gradient(135deg, #141414, #2c3e50);
+  color: #f1f1f1;
+  padding: 4rem 2rem;
+  border-bottom: 2px solid #e8cf43;
+}
+
+#contact h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #e8cf43;
+  margin-bottom: 2rem;
+}
+
+#contact form input,
+#contact form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.8rem 0;
+  border: none;
+  border-radius: 8px;
+  background: #2b3b4b;
+  color: #f1f1f1;
+}
+
+#contact form input:focus,
+#contact form textarea:focus {
+  outline: 2px solid #e8cf43;
+}
+
+#contact button {
+  background: #e8cf43;
+  color: #1a1a1a;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#contact button:hover {
+  background: #f5e88f;
+}
+
+/* =========================
+   Footer
+========================= */
+#footer {
+  background: linear-gradient(180deg, #2c3e50, #34495e);
+  color: #f1f1f1;
+  text-align: center;
+  padding: 1.5rem 0;
+  border-top: 2px solid #e8cf43;
+}
+
+#footer p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+#footer a {
+  color: #e8cf43;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#footer a:hover {
+  color: #f5e88f;
+}
+/* =========================
+   Projects: Make #one / .spotlights match the intro (dark + gold)
+   Paste this at the BOTTOM of main.css
+========================= */
+
+#one.wrapper.spotlights {
+  background: linear-gradient(135deg, #1f2c38, #2c3e50); /* section background */
+  color: #f1f1f1;
+  padding: 0;
+  border-bottom: 2px solid #e8cf43;
+}
+
+/* Each spotlight row layout */
+#one .spotlights > section {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 0;
+  min-height: 320px;
+}
+
+/* Left image / right content split (responsive) */
+#one .spotlights .image,
+#one .spotlights .content {
+  flex: 1 1 50%;
+  min-width: 300px;
+}
+
+/* Remove purple panel and background artifacts */
+#one .spotlights .image {
+  padding: 0;
+  background: transparent !important;
+  border: none !important;
+}
+
+/* Make project images fill their column and look natural */
+#one .spotlights .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 0;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.45);
+}
+
+/* Content panel (dark, transparent — text sits on dark gradient) */
+#one .spotlights .content {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(23,33,40,0.25), rgba(25,36,45,0.35));
+  padding: 2.5rem 3rem;
+}
+
+/* Inner content */
+#one .spotlights .content .inner {
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+}
+
+/* Title / description styling (gold accents) */
+#one .spotlights .content h2 {
+  color: #e8cf43;
+  font-size: 1.9rem;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+
+#one .spotlights .content p {
+  color: rgba(255,255,255,0.85);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+/* "Learn more" button appearance to match theme */
+#one .spotlights .actions .button {
+  background: transparent;
+  color: #f1f1f1;
+  border: 1px solid rgba(255,255,255,0.08);
+  padding: 12px 28px;
+  border-radius: 28px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.25s ease;
+}
+
+#one .spotlights .actions .button:hover {
+  background: rgba(232,207,67,0.12);
+  color: #e8cf43;
+  border-color: #e8cf43;
+  transform: translateY(-3px);
+}
+
+/* Handle the alternating layout (image left / image right) already present in template */
+#one .spotlights > section:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+/* RESPONSIVE: stack on small screens */
+@media (max-width: 900px) {
+  #one .spotlights > section {
+    flex-direction: column;
+  }
+  #one .spotlights .image,
+  #one .spotlights .content {
+    flex: 1 1 100%;
+  }
+  #one .spotlights .content {
+    padding: 1.5rem;
+  }
+}
+/* =========================
+   Global Section Styles
+========================= */
+section {
+  padding: 3rem 2rem;
+  margin: 2rem 0;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #2c3e50, #34495e); /* Dark gradient */
+  color: #f1f1f1;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+  border-left: 4px solid #e8cf43; /* Gold accent */
+}
+
+section h2 {
+  color: #e8cf43;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+/* =========================
+   Sidebar
+========================= */
+#sidebar {
+  background: linear-gradient(180deg, #1e272e, #2f3640);
+  color: #f1f1f1;
+  padding: 2rem 1.5rem;
+  border-right: 3px solid #e8cf43;
+}
+
+#sidebar a {
+  color: #e8cf43;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#sidebar a:hover {
+  color: #f5e88f;
+}
+
+/* =========================
+   Intro Section
+========================= */
+#intro {
+  background: linear-gradient(180deg, #2c3e50, #34495e);
+  text-align: center;
+}
+
+#intro h1 {
+  color: #e8cf43;
+  font-size: 2.2rem;
+}
+
+#intro p {
+  font-size: 1.1rem;
+}
+
+/* =========================
+   Projects
+========================= */
+#projects {
+  background: linear-gradient(180deg, #2c3e50, #3d566e);
+}
+
+#projects .project-card {
+  background: #1e272e;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #e8cf43;
+  transition: transform 0.3s ease;
+}
+
+#projects .project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* =========================
+   Skills
+========================= */
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills li {
+  background: #1e272e;
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #e8cf43;
+  text-align: center;
+}
+
+/* =========================
+   Experience
+========================= */
+#experience {
+  background: linear-gradient(180deg, #2c3e50, #3b4a58);
+}
+
+#experience .job {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-left: 3px solid #e8cf43;
+}
+
+/* =========================
+   Get in Touch (Contact)
+========================= */
+#contact {
+  background: linear-gradient(180deg, #2c3e50, #3d566e);
+  text-align: center;
+}
+
+#contact form input,
+#contact form textarea {
+  width: 90%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #e8cf43;
+  border-radius: 8px;
+  background: #1e272e;
+  color: #f1f1f1;
+}
+
+#contact form button {
+  background: #e8cf43;
+  color: #2c3e50;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#contact form button:hover {
+  background: #f5e88f;
+}
+
+/* =========================
+   Footer
+========================= */
+#footer {
+  background: linear-gradient(180deg, #2c3e50, #34495e);
+  color: #f1f1f1;
+  text-align: center;
+  padding: 1.5rem 0;
+  border-top: 2px solid #e8cf43;
+}
+
+#footer a {
+  color: #e8cf43;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#footer a:hover {
+  color: #f5e88f;
+}
+/* Intro Section Styling */
+#intro {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #2c3e50, #34495e);
+  color: #f1f1f1;
+  border-bottom: 3px solid #e8cf43;
+}
+
+#intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #e8cf43;
+}
+
+#intro .tagline {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  font-style: italic;
+  color: #ddd;
+}
+
+/* Icons Navigation */
+.intro-icons {
+  margin-top: 1.5rem;
+}
+
+.intro-icons a {
+  margin: 0 1rem;
+  font-size: 2rem;
+  color: #e8cf43;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.intro-icons a:hover {
+  color: #f5e88f;
+  transform: scale(1.2);
+}
+.icon-links {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.icon-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  background: gold; /* Gold background */
+  color: black; /* Black icon/text */
+  padding: 15px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  justify-content: center;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.icon-link i {
+  font-size: 24px;
+  color: black; /* Black icon */
+}
+
+.icon-link span {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: black; /* Black text */
+}
+
+.icon-link:hover {
+  transform: scale(1.1);
+  background: #d4af37; /* Darker gold on hover */
+}
+
