@@ -1,299 +1,305 @@
 <!DOCTYPE HTML>
 <!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  Hyperspace by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license
 -->
 <html>
-	<head>
-		<title>Harshavarthanan's Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+  <title>Harshavarthanan's Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Projects</a></li>
-							<li><a href="#two">Skills</a></li>
-							<li><a href="#three">Get in touch</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+  <!-- AUTO-RATIO RESPONSIVE FIX -->
+  <style>
+    .intro-center {
+      text-align: center;
+      max-width: 960px;
+      margin: auto;
+      padding: clamp(1rem, 4vw, 3rem);
+    }
+    .profile-img {
+      width: clamp(120px, 30vw, 180px);
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #e8cf43;
+      margin-bottom: 1.5rem;
+    }
+    h1 { font-size: clamp(1.6rem, 5vw, 2.6rem); }
+    h2 { font-size: clamp(1.2rem, 4vw, 1.6rem); }
+    p { font-size: clamp(0.95rem, 2.4vw, 1.05rem); line-height: 1.6; }
+    .explore-icons {
+      display: flex;
+      justify-content: center;
+      gap: clamp(1.5rem, 5vw, 3rem);
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 0;
+    }
+    .explore-icons a {
+      font-size: clamp(22px, 6vw, 28px);
+      color: #e8cf43;
+    }
+    img { max-width: 100%; height: auto; }
+  </style>
+</head>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<body class="is-preload">
 
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner" style="text-align: center;">
-							<img src="images/hv.jpg" alt="Profile Photo" 
-								style="width: 160px; height: 160px; object-fit: cover; border-radius: 50%; border: 3px solid #e8cf43; margin-bottom: 20px;" />
-
-							<h1>Harshavarthanan S</h1>
-
-							<p style="opacity: 1; font-weight: 600; color: #222; text-shadow: 0 1px 2px rgba(0,0,0,0.2);">
-								Aspiring Data Scientist — AI/ML Enthusiast
-							</p>
-
-							<p>Motivated B.Tech student in Artificial Intelligence and Data Science, passionate about leveraging data and AI to
-							solve real-world problems. Proficient in Python, SQL, and Machine Learning with hands-on experience in data
-							analysis, visualization, and secure authentication systems. Eager to contribute to data-driven innovation through
-							continuous learning, creative thinking, and strong technical skills.</p>
-
-							<a href="https://drive.google.com/file/d/1bvPV8xXvIn-wq-Vg0ErcHcS2Z72g_RO1/view?usp=drive_link" 
-								style="background-color: #e8cf43; padding: 8px 12px; color: #000; text-decoration: none; font-weight: bold; border-radius: 5px;">
-								VIEW RESUME
-							</a>
-
-							<!-- New Highlights + Navigation Icons -->
-							<div style="margin-top: 40px;">
-								<h3 style="margin-bottom: 15px;">Explore More</h3>
-								<ul class="icons" style="display: flex; justify-content: center; gap: 30px; list-style: none; padding: 0;">
-									<li>
-										<a href="generic.html" class="icon solid fa-book" style="font-size: 28px; color: #e8cf43;">
-											<span class="label">Generic Page</span>
-										</a>
-										<p style="font-size: 14px; margin-top: 8px;">Highlights</p>
-									</li>
-									<li>
-										<a href="elements.html" class="icon solid fa-cogs" style="font-size: 28px; color: #e8cf43;">
-											<span class="label">Elements Page</span>
-										</a>
-										<p style="font-size: 14px; margin-top: 8px;">Experiences</p>
-									</li>
-									<li>
-										<a href="#one" class="icon solid fa-project-diagram" style="font-size: 28px; color: #e8cf43;">
-											<span class="label">Projects</span>
-										</a>
-										<p style="font-size: 14px; margin-top: 8px;">View Projects</p>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</section>
-
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-    
-    <section>
-    <a href="#" class="image">
-        <img src="images/pic1.jpg" alt="" data-position="top center" />
-    </a>
-    <div class="content">
-        <div class="inner">
-            <h2>COVID-19 Mortality Risk Prediction | Python, Logistic Regression, Pandas</h2>
-            <p>Built a predictive model using Logistic Regression to assess COVID-19 mortality risk based on patient health records. 
-            Streamlined preprocessing with Pandas and achieved reliable classification accuracy on real-world datasets.</p>
-            <ul class="actions">
-                <li>
-                    <a href="https://github.com/Harshavarthanan-ctrl/COVID_19_Mortality_Risk_Prediction" class="button" target="_blank">
-                        Learn more
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
+<section id="sidebar">
+  <div class="inner">
+    <nav>
+      <ul>
+        <li><a href="#intro">Welcome</a></li>
+        <li><a href="#one">Projects</a></li>
+        <li><a href="#two">Skills</a></li>
+        <li><a href="#three">Get in touch</a></li>
+      </ul>
+    </nav>
+  </div>
 </section>
 
+<div id="wrapper">
 
+<!-- Intro -->
+<section id="intro" class="wrapper style1 fullscreen fade-up">
+  <div class="inner intro-center">
+    <img src="images/hv.jpg" alt="Profile Photo" class="profile-img" />
+    <h1>Harshavarthanan S</h1>
+    <p style="font-weight:600;">Aspiring Data Scientist — AI/ML Enthusiast</p>
+    <p>
+      Motivated B.Tech student in Artificial Intelligence and Data Science, passionate about leveraging data and AI to
+      solve real-world problems.
+    </p>
+    <a href="https://drive.google.com/file/d/1bvPV8xXvIn-wq-Vg0ErcHcS2Z72g_RO1/view"
+       class="button primary">VIEW RESUME</a>
+  </div>
+</section>
 
+<!-- Projects -->
+<section id="one" class="wrapper style2 spotlights">
+
+  <!-- Project 1 -->
   <section>
-    <a href="#" class="image">
-        <img src="images/pic2.jpg" alt="" data-position="top center" />
-    </a>
-    <div class="content">
-        <div class="inner">
-            <h2>Employee Salary Prediction using ML | Python, Scikit-learn, Pandas</h2>
-            <p>Built an 85%-accurate employment trend model using Scikit-learn, optimizing preprocessing with Pandas.
-            Delivered insights that improved strategic planning and resource allocation by 15%.</p>
-            <ul class="actions">
-                <li>
-                    <a href="https://github.com/Harshavarthanan-ctrl/Employee-salary-prediction-using-ml-" class="button" target="_blank">
-                        Learn more
-                    </a>
-                </li>
-            </ul>
-        </div>
+    <a href="#" class="image"><img src="images/pic1.jpg" alt="" /></a>
+    <div class="content"><div class="inner">
+      <h2>COVID-19 Mortality Risk Prediction</h2>
+      <p>Logistic Regression model for mortality risk assessment.</p>
+      <a href="https://github.com/Harshavarthanan-ctrl/COVID_19_Mortality_Risk_Prediction"
+         class="button" target="_blank">Learn more</a>
+    </div></div>
+  </section>
+
+  <!-- Project 2 -->
+  <section>
+    <a href="#" class="image"><img src="images/pic2.jpg" alt="" /></a>
+    <div class="content"><div class="inner">
+      <h2>Employee Salary Prediction using ML</h2>
+      <p>85% accurate salary prediction model.</p>
+      <a href="https://github.com/Harshavarthanan-ctrl/Employee-salary-prediction-using-ml-"
+         class="button" target="_blank">Learn more</a>
+    </div></div>
+  </section>
+
+  <!-- Project 3 (RESTORED) -->
+  <section>
+    <a href="#" class="image"><img src="images/pic3.jpg" alt="" /></a>
+    <div class="content"><div class="inner">
+      <h2>LandslideX – Real-Time AI Forecasting (Hackathon)</h2>
+      <p>AI-based landslide prediction using CNN, LSTM, Random Forest.</p>
+      <a href="generic.html" class="button">Learn more</a>
+    </div></div>
+  </section>
+
+  <!-- Project 4 (RESTORED) -->
+  <section>
+    <a href="#" class="image"><img src="images/pic4.jpg" alt="" /></a>
+    <div class="content"><div class="inner">
+      <h2>Credit Card Fraud Detection System</h2>
+      <p>ML pipeline with Streamlit dashboard for fraud detection.</p>
+      <a href="https://github.com/Harshavarthanan-ctrl/Credit-card-fraud-detection"
+         class="button" target="_blank">Learn more</a>
+    </div></div>
+  </section>
+
+  <!-- Project 5 (RESTORED) -->
+  <section>
+    <a href="#" class="image"><img src="images/pic5.jpg" alt="" /></a>
+    <div class="content"><div class="inner">
+      <h2>Student Dropout Analysis</h2>
+      <p>Predictive model to identify students at dropout risk.</p>
+      <a href="generic.html" class="button">Learn more</a>
+    </div></div>
+  </section>
+
+  <!-- Skills -->
+<section id="two" class="wrapper style3 fade-up">
+  <div class="inner skills-enhanced">
+    <h2>Skills Developed</h2>
+    <p class="skills-intro">
+      A strong blend of technical expertise and problem-solving capabilities, applied across data science,
+      analytics, and real-world AI solutions.
+    </p>
+
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <span class="icon solid fa-code"></span>
+        <h3>Programming</h3>
+        <p>Python, SQL, and R for data analysis, modeling, automation, and pipeline development.</p>
+      </div>
+
+      <div class="skill-card">
+        <span class="icon solid fa-database"></span>
+        <h3>Data Science Tools</h3>
+        <p>Pandas, NumPy, Matplotlib, Seaborn for data wrangling, EDA, and insights.</p>
+      </div>
+
+      <div class="skill-card">
+        <span class="icon solid fa-brain"></span>
+        <h3>Machine Learning</h3>
+        <p>Supervised & Unsupervised learning using Scikit-learn for prediction and clustering.</p>
+      </div>
+
+      <div class="skill-card">
+        <span class="icon solid fa-chart-line"></span>
+        <h3>Data Visualization</h3>
+        <p>Power BI, Excel dashboards, and Tableau fundamentals for business insights.</p>
+      </div>
+
+      <div class="skill-card">
+        <span class="icon solid fa-tools"></span>
+        <h3>Tools & Platforms</h3>
+        <p>Git, GitHub, Google Colab, Figma, Coursera, Forage.</p>
+      </div>
+
+      <div class="skill-card">
+        <span class="icon solid fa-users"></span>
+        <h3>Soft Skills</h3>
+        <p>Problem-solving, communication, teamwork, and project execution.</p>
+      </div>
+
     </div>
+
+    <ul class="actions">
+      <li><a href="generic.html" class="button">Learn more</a></li>
+    </ul>
+  </div>
 </section>
-
-
-    <section>
-        <a href="#" class="image"><img src="images/pic3.jpg" alt="" data-position="top center" /></a>
-        <div class="content">
-            <div class="inner">
-                <h2>LandslideX – Real-Time AI Forecasting & Risk Monitoring - Hackathon | ReactJS, FastAPI, Random Forest, CNN, LSTM</h2>
-                <p>Built an AI-based landslide prediction model using Random Forest, CNN, and LSTM with 92% accuracy, leveraging satellite and weather data.
-Deployed a FastAPI pipeline with real-time alerts and interactive visualizations, serving 1,000+ users with 98% uptime.</p>
-                <ul class="actions">
-                    <li><a href="generic.html" class="button">Learn more</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <a href="#" class="image"><img src="images/pic4.jpg" alt="" data-position="top center" /></a>
-        <div class="content">
-            <div class="inner">
-                  <h2>Credit Card Fraud Detection System | Python, Scikit-learn, Streamlit</h2>
-            <p>Built a robust machine learning pipeline to detect fraudulent transactions using a real-world credit card dataset. Integrated a Streamlit-based interactive dashboard for real-time predictions with model interpretability and feature scaling.</p>
-                <ul class="actions">
-                    <li><a href="https://github.com/Harshavarthanan-ctrl/Credit-card-fraud-detection" class="button" target="_blank">Learn more</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <a href="#" class="image"><img src="images/pic5.jpg" alt="" data-position="25% 25%" /></a>
-        <div class="content">
-            <div class="inner">
-                <h2>Student Dropout Analysis | Python, Pandas, Scikit-learn</h2>
-                <p>Developed a predictive model using Scikit-learn to identify students at risk of dropping out, reducing dropout rates by 20%.
-Analyzed academic data and key risk factors to improve retention through actionable insights.</p>
-                <ul class="actions">
-                    <li><a href="generic.html" class="button">Learn more</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
 
 </section>
 
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>Skills Developed</h2>
-							<p>Proficient in Python, SQL, and Scikit-learn, with strong capabilities in data analysis, data visualization, and machine learning. Experienced in using Pandas, NumPy, Matplotlib, Seaborn, and Power BI for exploratory and statistical analysis. Familiar with Flask, FastAPI, and Dash for deploying data-driven applications. Competent in working with version control (Git/GitHub), cloud-based notebooks (Google Colab), and basic R programming. Skilled in applying problem-solving, logical reasoning, and technical communication in data-centric environments.</p>
-							<div class="features"></p>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-lightbulb"></span>
-									<h3>Programming</h3>
-									<p>Proficient in Python, SQL, and R for data analysis, statistical modeling, and end-to-end data pipeline development.
-Experienced in leveraging these tools for data wrangling, querying, visualization, and predictive modeling.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-lightbulb"></span>
-									<h3>Data Science Tools</h3>
-									<p>Skilled in using Pandas, NumPy, and Seaborn for efficient data manipulation, analysis, and visualization within Jupyter Notebooks.
-Proficient with Matplotlib for creating insightful plots and charts to support data-driven decision-making.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-lightbulb"></span>
-									<h3>Machine Learning:</h3>
-									<p>Experienced in implementing Supervised and Unsupervised Learning algorithms using Scikit-learn for classification, regression, and clustering tasks.
-Skilled in model training, evaluation, and optimization for real-world predictive analytics.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-lightbulb"></span>
-									<h3>Data Visualization</h3>
-									<p>Proficient in Power BI and Excel for interactive dashboards, data analysis, and reporting; familiar with Tableau for basic data visualization and exploration.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-lightbulb"></span>
-									<h3>Tools & Platforms</h3>
-									<p>Experienced with Git and GitHub for version control and collaborative development; proficient in Google Colab for cloud-based Python workflows.
-Familiar with Figma for UI design, and Coursera and Forage for continuous upskilling through hands-on projects and industry simulations.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-lightbulb"></span>
-									<h3>Soft Skills</h3>
-									<p>Strong in problem-solving and effective communication, with proven ability to manage projects and collaborate within cross-functional teams to achieve goals efficiently.</p>
-								</section>
-							</div>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul>
-						</div>
-					</section>
+<!-- Contact -->
+<section id="three" class="wrapper style1 fade-up">
+  <div class="inner contact-enhanced">
+    <h2>Get in Touch</h2>
+    <p class="contact-intro">
+      Interested in collaboration, internships, or data-driven opportunities?
+      Let’s connect and build something impactful.
+    </p>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Get in touch</h2>
-							<p>Thanks for visiting! If you’d like to connect with Harsha regarding opportunities or insights, feel free to send an email—always happy to hear from you.</p>
-							<div class="split style1">
-								<section>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li>
-  											<a href="mailto:harshavarthanan1285@gmail.com?subject=Portfolio%20Contact&body=Hi%20Harsha," 
-    										 class="button submit">
-   												 Send Message
- 											 </a>
-										</li>
+    <div class="contact-grid">
 
-										</ul>
-									</form>
-								</section>
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Email</h3>
-											<a href="mailto:harshavarthanan1285@gmail.com">harshavarthanan1285@gmail.com</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>(+91) 7695985676</span>
-										</li>
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="https://x.com/Harsha565844882" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="https://www.facebook.com/profile.php?id=61557553780249" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="https://github.com/Harshavarthanan-ctrl" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="https://www.linkedin.com/in/harshavarthanan-s-29598a2b6/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
+      <!-- Contact Form -->
+      <section class="contact-card">
+        <h3>Send a Message</h3>
+        <form method="post" action="#">
+          <div class="fields">
+            <div class="field half">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" />
+            </div>
+            <div class="field half">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" rows="5"></textarea>
+            </div>
+          </div>
+          <ul class="actions">
+            <li>
+              <a href="mailto:harshavarthanan1285@gmail.com?subject=Portfolio%20Contact&body=Hi%20Harsha,"
+                 class="button primary">
+                Send Message
+              </a>
+            </li>
+          </ul>
+        </form>
+      </section>
 
-			</div>
+      <!-- Contact Info -->
+      <section class="contact-card">
+        <h3>Contact Details</h3>
+        <ul class="contact-info">
+          <li><strong>Email:</strong> <a href="mailto:harshavarthanan1285@gmail.com">harshavarthanan1285@gmail.com</a></li>
+          <li><strong>Phone:</strong> (+91) 7695985676</li>
+        </ul>
 
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Harshavarthanan. All rights reserved.</li>
-					</ul>
-				</div>
-			</footer>
+        <h3>Social Presence</h3>
+        <ul class="icons social-icons">
+          <li><a href="https://x.com/Harsha565844882" class="icon brands fa-twitter"></a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=61557553780249" class="icon brands fa-facebook-f"></a></li>
+          <li><a href="https://github.com/Harshavarthanan-ctrl" class="icon brands fa-github"></a></li>
+          <li><a href="https://www.linkedin.com/in/harshavarthanan-s-29598a2b6/" class="icon brands fa-linkedin-in"></a></li>
+        </ul>
+      </section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    </div>
+  </div>
+</section>
+<style>
+/* === FORCE-REMOVE EXTRA VIEWPORT SPACE (HYPERSPACE FIX) === */
 
-	</body>
+/* Kill phantom height added by fullscreen sections */
+.wrapper.fullscreen {
+  min-height: 100vh !important;
+  height: auto !important;
+}
+
+/* Stop wrapper from extending beyond content */
+#wrapper {
+  overflow: hidden;
+}
+
+/* Remove invisible spacer after last section */
+#wrapper::after {
+  display: none !important;
+  content: none !important;
+}
+
+/* Lock footer to actual content end */
+#footer {
+  margin-top: 0 !important;
+}
+
+/* Safety: prevent body from stretching */
+html, body {
+  overflow-x: hidden;
+}
+
+
+</style>
+
+<footer id="footer" class="wrapper style1-alt">
+  <div class="inner">
+    <ul class="menu">
+      <li>&copy; Harshavarthanan. All rights reserved.</li>
+    </ul>
+  </div>
+</footer>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
 </html>
